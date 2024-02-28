@@ -8,6 +8,7 @@ app = Flask(__name__)
 # Function to display the home page
 @app.route('/')
 def index():
+  # test
   return '''
   <h1> Adopt a pet <h1/> 
   <p>Browse through the links below to 
@@ -18,6 +19,7 @@ def index():
  <li><a href='/animals/cats'>Cats </a> </li> 
  <li><a href='/animals/rabbits'>Rabbits</a></li> 
  </ul>
+ 
   '''
 
 
